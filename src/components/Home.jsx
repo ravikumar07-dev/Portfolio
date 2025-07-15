@@ -11,7 +11,11 @@ const Home = () => {
           <h1 className=" font-semibold text-[3rem] md:text-5xl">Ravi Kumar</h1>
           <p className="text-xl text-[#7b7b7b] ">Frontend Developer</p>
           <p className="text-bsse mt-3">
-            Driven frontend developer focused on building fast, modern, and responsive web interfaces using React.js and Tailwind CSS. Looking to join a forward-thinking team where I can solve real-world problems, contribute meaningfully, and grow my skills through hands-on experience.
+            Driven frontend developer focused on building fast, modern, and
+            responsive web interfaces using React.js and Tailwind CSS. Looking
+            to join a forward-thinking team where I can solve real-world
+            problems, contribute meaningfully, and grow my skills through
+            hands-on experience.
           </p>
 
           <div className="flex flex-row space-x-3 mt-10">
@@ -56,7 +60,12 @@ const Home = () => {
         </div>
 
         <div className=" md:w-[50%] w-full flex justify-center items-center mt-5 ">
-          <img src={Vector} className="w-[70%] md:w-[70%] mt-10" />
+          <img
+            src={Vector}
+            className="w-[70%] md:w-[70%] mt-10"
+            loading="lazy"
+            alt="vector"
+          />
         </div>
       </section>
     </>

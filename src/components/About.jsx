@@ -4,10 +4,9 @@ import { IoLogoCss3 } from "react-icons/io";
 import { FaGithub, FaJs, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
-import { Github, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const About = () => {
-
   return (
     <section className="w-full h-full flex flex-col mt-5 text-white">
       <div className="flex flex-col justify-between lg:flex-row items-center w-full h-full mt-6 px-6 sm:px-6 md:px-10 lg:px-20 sm:mt-6 md:mt-10 lg:mt-15 gap-5">
@@ -32,7 +31,7 @@ const About = () => {
             <div className="flex space-x-8 items-center p-2 ">
               <a
                 className="flex gap-2 items-center"
-                href="https://github.com/ravikumar07-dev "
+                href="https://github.com/ravikumar07-dev"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,6 +74,8 @@ const About = () => {
           <img
             src={Img}
             className=" w-1/2 rounded-xl mt-6 hidden lg:block cursor-pointer"
+            loading="lazy"
+            alt="myPic"
           />
         </div>
       </div>
@@ -83,23 +84,34 @@ const About = () => {
       <div className="w-full md:w-[100%] h-full  md:mx-0 md:px-24 md:py-24 rounded-2xl flex flex-col justify-center px-7 ">
         <div className="text-left md:text-center text-4xl md:text-5xl px-3">
           <h1>Skills</h1>
-            <div className="flex gap-x-3 flex-wrap md:flex-row cursor-pointer md:justify-center mt-2 md:mt-4">
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#Html</span>
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#CSS</span>
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#JavaScript</span>
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#React</span>
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#Tailwind</span>
-              <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">#Redux</span></div>
-            </div>
+          <div className="flex gap-x-3 flex-wrap md:flex-row cursor-pointer md:justify-center mt-2 md:mt-4">
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #Html
+            </span>
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #CSS
+            </span>
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #JavaScript
+            </span>
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #React
+            </span>
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #Tailwind
+            </span>
+            <span className=" mt-2 md:mt-4 text-sm md:text-lg text-[#dbdbdb] px-3 py-1 bg-white/10 backdrop-blur-sm shadow-md">
+              #Redux
+            </span>
+          </div>
+        </div>
 
-          {/* icons */}
-        <div className="flex flex-wrap justify-start md:justify-center mt-5 p-3 gap-8 shrink"> 
-
-          <div
-            className="flex flex-col justify-center items-center w-20 h-20 md:w-32 md:h-32   px-3 py-3 bg-white/10 backdrop-blur-sm shadow-md">
+        {/* icons */}
+        <div className="flex flex-wrap justify-start md:justify-center mt-5 p-3 gap-8 shrink">
+          <div className="flex flex-col justify-center items-center w-20 h-20 md:w-32 md:h-32   px-3 py-3 bg-white/10 backdrop-blur-sm shadow-md">
             <SiHtml5 className="fill-red-500 size-10 lg:size-14 " />
             <span>HTML</span>
-          </div>  
+          </div>
 
           <div className="flex flex-col justify-center items-center w-20 h-20 md:w-32 md:h-32 px-3 py-3 bg-white/10 backdrop-blur-sm shadow-md">
             <IoLogoCss3 className=" fill-blue-700 size-12 lg:size-14" />

@@ -12,7 +12,8 @@ const Projects = () => {
           <img
             src={imgProject}
             class=" w-50 h-30 md:w-90 md:h-80 rounded-t-md object-cover transition-all duration-300"
-            alt=""
+            alt="img"
+            loading="lazy"
           />
           <a
             href="https://clipboard-manager-six.vercel.app/"

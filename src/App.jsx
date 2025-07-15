@@ -5,13 +5,17 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { Element } from "react-scroll";
-import Background from "./assets/milad-fakurian-7W3X1dAuKqg-unsplash.jpg"
+import Background from "./assets/milad-fakurian-7W3X1dAuKqg-unsplash.jpg";
 
 function App() {
   return (
     <div>
-      <div className="fixed inset-0 bg-contain bg-center blur-lg scale-110 -z-10"
-        style={{ backgroundImage: `url(${Background})` }}/>
+      <img
+        src={Background}
+        alt="bg"
+        loading="lazy"
+        className="fixed inset-0 bg-contain bg-center blur-lg scale-110 -z-10"
+      />
       <Navbar />
 
       {/* Scrollable Sections */}
