@@ -5,16 +5,17 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { Element } from "react-scroll";
-import Background from "./assets/milad-fakurian-7W3X1dAuKqg-unsplash.jpg";
+import Background from "./assets/Background.webp";
 
 function App() {
   return (
     <div>
+      <div className="fixed inset-0 bg-[#0f172a] z-[-20]"></div>
       <img
         src={Background}
         alt="bg"
         loading="lazy"
-        className="fixed inset-0 bg-contain bg-center blur-lg scale-110 -z-10"
+        className="fixed inset-0 object-cover blur-lg scale-110 -z-10"
       />
       <Navbar />
 
