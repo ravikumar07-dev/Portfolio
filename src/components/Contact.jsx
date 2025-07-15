@@ -43,6 +43,7 @@ const Contact = () => {
             ref={formRef}
             name="contact"
             method="POST"
+            netlify
             data-netlify="true"
             onSubmit={handleSubmit}
             data-netlify-honeypot="bot-field"
