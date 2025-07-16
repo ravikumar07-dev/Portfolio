@@ -63,7 +63,7 @@ const Home = () => {
           <img
             src={Vector}
             className="w-[70%] md:w-[70%] mt-10"
-            loading="lazy"
+            loading="eager"
             alt="vector"
           />
         </div>

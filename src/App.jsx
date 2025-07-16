@@ -14,8 +14,8 @@ function App() {
       <img
         src={Background}
         alt="bg"
-        loading="lazy"
-        className="fixed inset-0 object-cover blur-lg scale-110 -z-10"
+        loading="eager"
+        className="fixed inset-0 w-full h-full object-cover blur-lg scale-110 -z-10"
       />
       <Navbar />
 
