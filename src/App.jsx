@@ -10,7 +10,6 @@ import Background from "./assets/Background.webp";
 function App() {
   return (
     <div>
-      <div className="fixed inset-0 bg-[#0f172a] z-[-20]"></div>
       <img
         src={Background}
         alt="bg"
