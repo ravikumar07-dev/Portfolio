@@ -1,49 +1,99 @@
 import React from "react";
-import imgProject from "../assets/ImgProject.png";
+import imgProject from "../assets/PasteApp.jpg";
+import PortfolioPic from "../assets/Portfolio.jpg";
 
 const Projects = () => {
   return (
     <section className="w-full h-full flex flex-col justify-center items-center mt-5">
+      {/* Heading */}
       <div>
         <h1 className="text-4xl md:text-5xl text-white">Projects</h1>
       </div>
-      <div className="p-6 rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
-        <div className=" relative flex flex-col justify-center">
-          <img
-            src={imgProject}
-            class=" w-50 h-30 md:w-90 md:h-80 rounded-t-md object-cover transition-all duration-300"
-            alt="img"
-            loading="lazy"
-          />
-          <a
-            href="https://clipboard-manager-six.vercel.app/"
-            className="absolute inset-0 bg-zinc-900/70 backdrop-blur-sm flex justify-center items-center text-white text-base font-semibold opacity-0 hover:opacity-100 transition-opacity"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit PasteApp
-          </a>
+
+      {/* Project Card */}
+      <div className=" grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:py-5 md:px-10 md:gap-5 mt-5">
+        {/* Project 1 */}
+        <div className="md:w-full p-6 rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+          <div className=" relative flex flex-col justify-center">
+            <img
+              src={PortfolioPic}
+              class=" w-50 h-30 md:w-full rounded-t-md object-cover transition-all duration-300"
+              alt="img"
+              loading="lazy"
+            />
+            <a
+              href="https://ravikumar07-portfolio.netlify.app/"
+              className="w-50 h-30 md:w-full absolute inset-0 bg-zinc-900/70 backdrop-blur-sm flex justify-center items-center text-white text-base font-semibold opacity-0 hover:opacity-100 transition-opacity rounded-t-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit Portfolio
+            </a>
+          </div>
+          <div className="w-50 h-30 md:w-full p-4 sm:p-5 space-y-3 bg-[#1a1c1e] text-gray-300 rounded-b-md">
+            <p className="text-left text-sm text-wrap sm:text-base">
+              Interactive Portfolio showcasing my projects with smooth
+              animations and responsive design.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className=" bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                React
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                Tailwind CSS
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md text-xs px-2 py-1 rounded-full">
+                JavaScript
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md text-xs px-2 py-1 rounded-full">
+                Responsive Design
+              </span>
+            </div>
+          </div>
         </div>
-        <div className="w-50 h-30 p-4 sm:p-5 space-y-3 bg-red-50 rounded-b-md">
-          <p className="text-left text-black text-sm sm:text-base">
-            Paste App is a small web application where you can paste any text or code, save it, and view it later.
-          </p>
-          <div className="flex flex-wrap gap-2">
-            <span className=" bg-white/10 backdrop-blur-sm shadow-md text-black text-xs px-2 py-1 rounded-full">
-              React
-            </span>
-            <span className="bg-white/10 backdrop-blur-sm shadow-md text-black text-xs px-2 py-1 rounded-full">
-              Local Store
-            </span>
-            <span className="bg-white/10 backdrop-blur-sm shadow-md text-black text-xs px-2 py-1 rounded-full">
-              State Function
-            </span>
-            <span className="bg-white/10 backdrop-blur-sm shadow-md text-black text-xs px-2 py-1 rounded-full">
-              TailWind CSS  
-            </span>
+
+        {/* Project 2 */}
+        <div className="md:w-full flex-col p-6 rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+          <div className=" relative flex flex-col justify-center">
+            <img
+              src={imgProject}
+              class=" w-50 h-30 md:w-full rounded-t-md object-cover transition-all duration-300"
+              alt="img"
+              loading="lazy"
+            />
+            <a
+              href="https://clipboard-manager-six.vercel.app/"
+              className="w-50 h-30 md:w-full absolute inset-0 bg-zinc-900/70 backdrop-blur-sm flex justify-center items-center text-white text-base font-semibold opacity-0 hover:opacity-100 transition-opacity rounded-t-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit PasteApp
+            </a>
+          </div>
+          <div className="w-50 h-30 md:w-full p-4 sm:p-5 space-y-3 bg-[#1a1c1e] text-gray-300 rounded-b-md">
+            <p className="text-left text-sm text-wrap sm:text-base">
+              Paste App is a small web application where you can paste any text
+              or code, save it, and view it later.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className=" bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                React
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                Local Store
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                State Function
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                TailWind CSS
+              </span>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Github Link Section */}
       <div className="text-white mt-5 mb-5 flex flex-col ">
         <h1 className="text-lg">Want To See More?</h1>
         <a

@@ -18,8 +18,8 @@ const Home = () => {
             hands-on experience.
           </p>
 
-          <div className="flex flex-row space-x-3 mt-10">
-            <button className="bg-slate-100 text-black w-28 h-9 rounded-lg hover:bg-blue-300 hover:text-white ">
+          <div className="flex flex-row mt-10">
+            <button className="bg-gray-300 text-black w-28 h-9 hover:bg-blue-500 hover:text-white duration-300 ease-in-out ">
               <a
                 className="flex flex-row justify-center gap-2 place-items-center text-center"
                 href={Resume}
@@ -31,7 +31,7 @@ const Home = () => {
             </button>
 
             <a
-              className="bg-slate-100 text-black w-10 h-9 rounded-md flex justify-center place-items-center hover:bg-blue-300 hover:text-white"
+              className="bg-slate-100 text-black w-10 h-9  flex justify-center place-items-center hover:bg-red-700 hover:text-white duration-300 ease-in-out"
               href="mailto:ravip2886@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Home = () => {
             </a>
 
             <a
-              className="bg-slate-100 text-black w-10 h-9 rounded-md flex justify-center place-items-center hover:bg-blue-300 hover:text-white"
+              className="bg-slate-100 text-black w-10 h-9  flex justify-center place-items-center hover:bg-black hover:text-white duration-300 ease-in-out"
               href="https://github.com/ravikumar07-dev"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,7 +49,7 @@ const Home = () => {
             </a>
 
             <a
-              className="bg-slate-100 text-black w-10 h-9 rounded-md flex justify-center place-items-center hover:bg-blue-300 hover:text-white"
+              className="bg-slate-100 text-black w-10 h-9  flex justify-center place-items-center hover:bg-blue-700 hover:text-white duration-300 ease-in-out"
               href="https://www.linkedin.com/in/ravi-kumar-a45295354"
               target="_blank"
               rel="noopener noreferrer"

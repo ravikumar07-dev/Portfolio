@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
-import { FaHome, FaAddressCard } from "react-icons/fa";
-import { Code2Icon, Headphones } from "lucide-react";
+import { FaHome, FaAddressCard, } from "react-icons/fa";
+import { Code2Icon, } from "lucide-react";
+import { IoMdPaperPlane } from "react-icons/io";
 
 const iconMap = {
   home: FaHome,
   about: FaAddressCard,
   projects: Code2Icon,
-  contact: Headphones,
+  contact: IoMdPaperPlane,
 };
 
 const NavItem = ({ type, label }) => {

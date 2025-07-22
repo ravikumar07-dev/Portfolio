@@ -2,6 +2,7 @@ import NavItem from "./NavItem";
 import Profilepic from "../assets/IMG_9440.JPG";
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
   return (
     <div className="flex flex-row justify-between text-white bg-[#212121] w-full h-16 items-center sticky top-0 z-50">
