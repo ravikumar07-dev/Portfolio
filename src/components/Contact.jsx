@@ -185,6 +185,13 @@ const Contact = () => {
           </div>
         </div>
       </main>
+      <div hidden>
+        <form name="contact" netlify>
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <textarea name="message" />
+        </form>
+      </div>
     </section>
   );
 };
