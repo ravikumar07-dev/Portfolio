@@ -1,6 +1,7 @@
 import React from "react";
 import imgProject from "../assets/PasteApp.jpg";
 import PortfolioPic from "../assets/Portfolio.jpg";
+import img from "../assets/RandomNumber.jpg";
 
 const Projects = () => {
   return (
@@ -87,6 +88,45 @@ const Projects = () => {
               </span>
               <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
                 TailWind CSS
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 3*/}
+        <div className="md:w-full flex-col p-6 rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+          <div className=" relative flex flex-col justify-center">
+            <img
+              src={img}
+              class=" w-50 h-30 md:w-full rounded-t-md object-cover transition-all duration-300"
+              alt="img"
+              loading="lazy"
+            />
+            <a
+              href="https://random-number-one-theta.vercel.app/"
+              className="w-50 h-30 md:w-full absolute inset-0 bg-zinc-900/70 backdrop-blur-sm flex justify-center items-center text-white text-base font-semibold opacity-0 hover:opacity-100 transition-opacity rounded-t-md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit Random Number Generator
+            </a>
+          </div>
+          <div className="w-50 h-30 md:w-full p-4 sm:p-5 space-y-3 bg-[#1a1c1e] text-gray-300 rounded-b-md">
+            <p className="text-left text-sm text-wrap sm:text-base">
+              R N Generator is a simple and responsive web & mobile-friendly app. It lets you generate random numbers and view the previously generated results.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <span className=" bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                React
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                State Function
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                TailWind CSS
+              </span>
+              <span className="bg-white/10 backdrop-blur-sm shadow-md  text-xs px-2 py-1 rounded-full">
+                Responsive
               </span>
             </div>
           </div>
