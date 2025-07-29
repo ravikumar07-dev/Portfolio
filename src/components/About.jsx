@@ -1,4 +1,4 @@
-import Img from "../assets/IMG_9440.JPG";
+import Img from "../assets/img.webp";
 import { SiHtml5 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGithub, FaJs, FaLinkedinIn, FaReact } from "react-icons/fa";

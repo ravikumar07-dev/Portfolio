@@ -1,5 +1,5 @@
 import NavItem from "./NavItem";
-import Profilepic from "../assets/IMG_9440.JPG";
+import Profilepic from "../assets/IMG.webp";
 import { Link } from "react-scroll";
 
 

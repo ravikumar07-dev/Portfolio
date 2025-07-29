@@ -1,7 +1,7 @@
 import Resume from "../assets/Ravi Kumar.pdf";
 import { Download, Mail } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Vector from "../assets/vector.png";
+import Vector from "../assets/vector.webp";
 
 const Home = () => {
   return (
