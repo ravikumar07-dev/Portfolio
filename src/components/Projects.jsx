@@ -179,7 +179,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
+      
       {/* Github Link Section */}
       <div className="text-white mt-5 mb-5 flex flex-col ">
         <h1 className="text-lg">Want To See More?</h1>
