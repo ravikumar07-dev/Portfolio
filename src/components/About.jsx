@@ -1,10 +1,11 @@
-import Img from "../assets/IMG.webp";
 import { SiHtml5 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGithub, FaJs, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
 import { Mail } from "lucide-react";
+import Img from "../assets/Ravi.webp"; 
+import myPic from "../assets/Ravi1.webp"; 
 
 const About = () => {
   return (
@@ -70,10 +71,10 @@ const About = () => {
         </div>
 
         {/* img  */}
-        <div className="w-[40%] items-end flex justify-center">
+        <div className="w-[40%] flex justify-center items-center ">
           <img
-            src={Img}
-            className=" w-1/2 rounded-xl mt-6 hidden lg:block cursor-pointer"
+            src={myPic}
+            className=" w-1/2 h-auto rounded-xl mt-6 hidden lg:block cursor-pointer"
             loading="lazy"
             alt="myPic"
           />

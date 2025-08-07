@@ -10,11 +10,11 @@ import Background from "./assets/Background.webp";
 function App() {
   return (
     <div>
+      {/* Background Image */}
       <img
         src={Background}
-        alt="bg"
-        loading="eager"
-        className="fixed inset-0 w-full h-full object-cover blur-lg scale-110 -z-10"
+        alt="background"
+        className="fixed inset-0 w-full h-full blur-lg scale-110 -z-10"
       />
       <Navbar />
 
